@@ -9,9 +9,9 @@ const {
 
 const router = Router();
 
-router.get("/", renderHomePage);
 router.get("/login", renderLoginPage);
 router.get("/signup", renderSignupPage);
 router.get("/dashboard", renderDashboardPage);
+router.get("/*", renderHomePage);
 
 module.exports = router;
