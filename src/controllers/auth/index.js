@@ -1,4 +1,4 @@
-const User = require("../../models/User");
+const { User } = require("../../models");
 
 const login = async (req, res) => {
   try {
@@ -23,8 +23,6 @@ const login = async (req, res) => {
     } else {
       return res.status(401).json({ data: "get lost" });
     }
-
-    return res.json({ data: "hello" });
   } catch (error) {
     console.log(`[ERROR]: Failed to login | ${error.message}`);
 

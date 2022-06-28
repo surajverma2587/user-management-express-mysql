@@ -1,0 +1,29 @@
+[
+  {
+    "firstName": "Bob",
+    "lastName": "Smith",
+    "username": "bobsmith",
+    "emailAddress": "bobsmith@email.com",
+    "password": "Password123!",
+    "dateOfBirth": "Tue Jun 28 2022 19:04:05 GMT+0100 (British Summer Time)",
+    "profileImageUrl": "https://images.unsplash.com/photo-1578681994506-b8f463449011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+  },
+  {
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "username": "alicesmith",
+    "emailAddress": "alicesmith@email.com",
+    "password": "Password456!",
+    "dateOfBirth": "Tue Jun 28 2022 19:04:05 GMT+0100 (British Summer Time)",
+    "profileImageUrl": "https://images.unsplash.com/photo-1578681994506-b8f463449011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+  },
+  {
+    "firstName": "Dave",
+    "lastName": "Smith",
+    "username": "davesmith",
+    "emailAddress": "davesmith@email.com",
+    "password": "Password789!",
+    "dateOfBirth": "Tue Jun 28 2022 19:04:05 GMT+0100 (British Summer Time)",
+    "profileImageUrl": "https://images.unsplash.com/photo-1578681994506-b8f463449011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+  }
+]
