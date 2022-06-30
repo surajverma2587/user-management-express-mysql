@@ -10,21 +10,7 @@ const seedUsers = async () => {
 };
 
 const seedBooks = async () => {
-  // get all users
-  const users = await User.findAll({ raw: true });
-
-  const updatedBooks = books.map((book) => {
-    // get a random user id from users
-    const { id } = users[Math.floor(Math.random() * users.length)];
-
-    // insert userId with random user id
-    book.userId = id;
-
-    return book;
-  });
-
-  await Book.bulkCreate(updatedBooks);
-
+  await Book.bulkCreate(books);
   console.log("Successfully seeded books");
 };
 

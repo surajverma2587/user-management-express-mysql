@@ -1,7 +1,6 @@
 const { Model, DataTypes } = require("sequelize");
 
 const connection = require("../config/connection");
-const User = require("./User");
 
 class Book extends Model {}
 
@@ -33,13 +32,13 @@ const schema = {
       isDecimal: true,
     },
   },
-  userId: {
+  stock: {
     type: DataTypes.INTEGER,
-    allowNull: false,
-    references: {
-      model: User,
-      key: "id",
+    allowNull: true,
+    validate: {
+      isNumeric: true,
     },
+    default: 0,
   },
 };
 

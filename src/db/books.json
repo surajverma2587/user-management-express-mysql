@@ -2,31 +2,37 @@
   {
     "title": "Book 1",
     "author": "Author 1",
-    "price": 120.0
+    "price": 120.0,
+    "stock": 10
   },
   {
     "title": "Book 2",
     "author": "Author 2",
-    "price": 110.0
+    "price": 110.0,
+    "stock": 10
   },
   {
     "title": "Book 3",
     "author": "Author 3",
-    "price": 160.0
+    "price": 160.0,
+    "stock": 10
   },
   {
     "title": "Book 4",
     "author": "Author 4",
-    "price": 10.0
+    "price": 10.0,
+    "stock": 10
   },
   {
     "title": "Book 5",
     "author": "Author 5",
-    "price": 140.0
+    "price": 140.0,
+    "stock": 10
   },
   {
     "title": "Book 6",
     "author": "Author 6",
-    "price": 170.0
+    "price": 170.0,
+    "stock": 10
   }
 ]

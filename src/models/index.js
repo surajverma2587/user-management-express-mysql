@@ -1,16 +1,15 @@
 const User = require("./User");
 const Book = require("./Book");
+const Sale = require("./Sale");
 
 // define associations
 
-// User has many books
-User.hasMany(Book, {
-  foreignKey: "userId",
+User.belongsToMany(Book, {
+  through: Sale,
 });
 
-// Book belong to user
-Book.belongsTo(User, {
-  foreignKey: "userId",
+Book.belongsToMany(User, {
+  through: Sale,
 });
 
 module.exports = {
